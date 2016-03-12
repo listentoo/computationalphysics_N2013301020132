@@ -1,0 +1,10 @@
+xianshi = {
+'L':('01000','01000','01000','01000','01111')
+'s':('01110','01000','01110','00010','01110')
+'t':('01110','00100','00100','00100','00100')}
+input_word = 'Lst'
+for i in range(5):
+    for j in range(3):
+        for k in input_word[j]:
+            print xianshi [k][i],
+    print ""
