@@ -1,0 +1,13 @@
+我是选择在 virtualbox中安装Centos7系统。 系统自带了Python 2.7.5，但centos的源里并没有ipython，也没有pip，通过wget下载地址，运行脚本安装pip再安装ipython。
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+python get-pip.py
+
+pip install ipython
+在虚拟机中使用linux只是用它的终端就行了，图形界面完全没必要出现。直接用xshell连接虚拟机。在xshell中输入的vbox后台启动命令：
+
+cd your vbox installing direction
+
+VBoxHeadless --startvm "你给虚拟机起的名字"
+最后一项就是给vim安装插件，按照学长的github中README的指示，安装好Vundle就可以把vim插同义词的插件安装上了。
