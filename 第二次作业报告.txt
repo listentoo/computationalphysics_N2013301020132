@@ -1,0 +1,5 @@
+------本次作业我是完成了第二级的程序，即将自己的姓名的首字母以任意顺序排列出来，我设置的显示方式是有笔画的位置显示1，没笔画的位置显示0，通过将LST三个字母事先写入程序，然后再通过一个逐行扫描语句就可以将字母显示出来了。同样通过一个扫描的语句可以扫出输入的字母，最后就可以将任意顺序的排列显示出来了。您可以从以下网址找到程序：
+### [第二次作业](https://github.com/listentoo/computationalphysics_N2013301020132/blob/master/li.py.txt)
+当然本次作业也有更高级的版本具体可以参考曹一同学提供的程序：
+[第三级版本](https://github.com/breakingDboy/computational_physics_2013301020120/blob/master/show_gif.py)
+感谢曹一同学和陈平涛同学的帮助！
